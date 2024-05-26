@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_username</name>
+   <name>iframe__iframeResult</name>
    <tag></tag>
-   <elementGuidId>cabd56eb-ca55-431e-a72d-f00213e6a6fb</elementGuidId>
+   <elementGuidId>2d864311-ea86-4eaa-a13f-2ee06a818092</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;username&quot;]</value>
+         <value>#iframeResult</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='username']</value>
+         <value>//iframe[@id='iframeResult']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Username&quot;i]</value>
+         <value>iframe[name=&quot;iframeResult&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,71 +28,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>26fb8c0e-f9d9-4788-96a7-a16ca4a7512a</webElementGuid>
+      <value>iframe</value>
+      <webElementGuid>26355c11-6574-43b3-aded-2cb83354e775</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>frameborder</name>
       <type>Main</type>
-      <value>oxd-input oxd-input--focus</value>
-      <webElementGuid>422cb076-2a36-4354-a06d-169e8a25af2a</webElementGuid>
+      <value>0</value>
+      <webElementGuid>9923e0ea-4863-4a93-889d-c078dde287e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>iframeResult</value>
+      <webElementGuid>62d059c9-bd65-4c37-be04-1ff77b7263af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>65f2807f-1a08-4137-899b-406a3d5fda6c</webElementGuid>
+      <value>iframeResult</value>
+      <webElementGuid>e07d3d35-31c3-4690-9e36-a5ac4f57ed5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>allowfullscreen</name>
       <type>Main</type>
-      <value>Username</value>
-      <webElementGuid>1951c532-a032-4c12-88cd-4b950a5c1c76</webElementGuid>
+      <value>true</value>
+      <webElementGuid>5f5e9da2-ef15-4328-bfaa-1e54c24231d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;orangehrm-login-layout&quot;]/div[@class=&quot;orangehrm-login-layout-blob&quot;]/div[@class=&quot;orangehrm-login-container&quot;]/div[@class=&quot;orangehrm-login-slot-wrapper&quot;]/div[@class=&quot;orangehrm-login-slot&quot;]/div[@class=&quot;orangehrm-login-form&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/input[@class=&quot;oxd-input oxd-input--focus&quot;]</value>
-      <webElementGuid>314c7986-19ba-4b1d-8877-aabfde07ce46</webElementGuid>
+      <value>id(&quot;iframeResult&quot;)</value>
+      <webElementGuid>94320caf-5769-4e3e-bc01-6b98bd67e09b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='username']</value>
-      <webElementGuid>176d9ff4-99a5-49cc-b66a-16141929f175</webElementGuid>
+      <value>//iframe[@id='iframeResult']</value>
+      <webElementGuid>f29e9df5-246d-4e07-89ee-dbf4fc3fe37e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div[2]/div[2]/form/div/div/div[2]/input</value>
-      <webElementGuid>74059716-325b-49c5-ba97-21564b5da2f7</webElementGuid>
+      <value>//div[@id='iframewrapper']/iframe</value>
+      <webElementGuid>2bf47ea4-6dc1-4ca1-a3eb-8374c55b3b96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input</value>
-      <webElementGuid>216ed788-e2e0-4249-b4b6-a127a3254a4c</webElementGuid>
+      <value>//div[4]/div/div/iframe</value>
+      <webElementGuid>6b78bfba-99b9-4df4-b414-9b4ebc6a634b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'username' and @placeholder = 'Username']</value>
-      <webElementGuid>c3d3c7b4-01eb-406c-be0c-d7db09da526b</webElementGuid>
+      <value>//iframe[@id = 'iframeResult' and @name = 'iframeResult']</value>
+      <webElementGuid>d6f60552-db2f-4987-a203-5820368fef97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//iframe</value>
+      <webElementGuid>3fb8a049-5dc2-4eee-beb3-893b6ba7c414</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

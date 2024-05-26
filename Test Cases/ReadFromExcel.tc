@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>How to create test manually</description>
-   <name>Test2_ManualMode</name>
+   <description></description>
+   <name>ReadFromExcel</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2348503e-5f62-46b1-84ba-744d38671e07</testCaseGuid>
+   <testCaseGuid>bdab5e94-4cad-42a5-a658-84239dd7543e</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3e7d7685-1ead-4bb4-a669-0232493af720</variableId>
+      <variableId>ef8cd250-7adc-4102-acdc-d656d383bbab</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0ba28bd4-74be-468b-938a-4f48cc0791da</variableId>
+      <variableId>5933e15e-76c0-43f6-86db-a9608795b10b</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Admin'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>3e7d7685-1ead-4bb4-a669-0232493af720</id>
+      <id>ef8cd250-7adc-4102-acdc-d656d383bbab</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>'admin123'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>0ba28bd4-74be-468b-938a-4f48cc0791da</id>
+      <id>5933e15e-76c0-43f6-86db-a9608795b10b</id>
       <masked>false</masked>
       <name>password</name>
    </variable>

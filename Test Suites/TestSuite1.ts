@@ -24,5 +24,17 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login/Test2_ManualMode</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3e7d7685-1ead-4bb4-a669-0232493af720</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0ba28bd4-74be-468b-938a-4f48cc0791da</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

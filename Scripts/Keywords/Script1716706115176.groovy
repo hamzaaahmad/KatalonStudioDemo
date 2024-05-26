@@ -17,15 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+CustomKeywords.'test.testKeyword.printhello'()
 
-WebUI.setText(findTestObject('Test2_OR/Page_OrangeHRM/input_Username_username'), username)
-
-WebUI.setText(findTestObject('Test2_OR/Page_OrangeHRM/input_Password_password'), password)
-
-WebUI.click(findTestObject('Test2_OR/Page_OrangeHRM/button_Login'))
-
-WebUI.verifyElementPresent(findTestObject('Test2_OR/Page_OrangeHRM/h6_Dashboard'), 0)
-
-WebUI.closeBrowser()
+CustomKeywords.'test.testKeyword.printName'('Hamza')
 
